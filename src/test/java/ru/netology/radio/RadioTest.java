@@ -42,7 +42,7 @@ public class RadioTest {
         serv.setVolume(9);
         serv.volumeUp();
         int actual = serv.getCurrentVolume();
-        int expected = 2;
+        int expected = 10;
 
         Assertions.assertEquals(expected,actual);
     }
